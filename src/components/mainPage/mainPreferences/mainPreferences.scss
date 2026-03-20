@@ -1,0 +1,134 @@
+.main-preferences {
+  padding: 0 16px;
+}
+
+.main-preferences-holder {
+  padding: 16px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.main-preferences-header {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // gap: 8px;
+  // margin: 0 0 12px;
+  position: relative;
+}
+.main-preferences-title {
+  margin: 0 0 6px 0;
+  // width: 40%;
+  flex-grow: 1;
+  @include textTitle24();
+}
+.btn-info {
+  display: block;
+  &:hover {
+    & + .info-text {
+      display: block;
+    }
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+.info-text {
+  // border-radius: 4px;
+  // background: #f2f2f2;
+  // padding: 2px 8px;
+  // position: absolute;
+  // z-index: 5;
+  // top: calc(100% + 4px);
+  // right: -8px;
+  width: max-content;
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 17px;
+  color: #6A6B6E;
+  margin: 0;
+  // display: none;
+  // &:before {
+  //   content: '';
+  //   display: block;
+  //   width: 12px;
+  //   height: 6px;
+  //   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  //   background: #f2f2f2;
+  //   position: absolute;
+  //   right: 14px;
+  //   bottom: calc(100% - 1px);
+  // }
+}
+.banner-discount{
+  background-color: #E7FFAF;
+  border-radius: 12px;
+  padding: 10px 12px 14px;
+  font-size: 12px;
+  line-height: 1.3;
+  margin: 12px 0 0;
+  background-image: url('/images/banner-img.png');
+  background-size: 357px 96px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  &.banner-discount-recieved{
+    background-image: url('/images/banner-img2.png');
+    background-size: 337px 63px;
+  }
+}
+.banner-discount-text{
+  max-width: 210px;
+  margin-bottom: 0;
+}
+.preferences-preset{
+  padding: 16px 0;
+}
+.preferences-preset-header{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+.preset-container{
+  display: flex;
+  gap: 8px;
+}
+.preset-btn{
+  display: block;
+  border: none;
+  padding: 7px;
+  border-radius: 8px;
+  flex: 1;
+  font-size: 12px;
+  line-height: 1;
+  color: #6A6B6E;
+  &.active-preset{
+    background-color: #E7FFAF;
+    font-weight: bold;
+    color: #141414;
+  }
+}
+.main-preferences-attention-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  background: #F5F5F6;
+  border-radius: 10px;
+  padding: 8px 16px 8px 0;
+  img{
+    opacity: 0.5;
+  }
+  p {
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0;
+  }
+}
+
+.main-preferences-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 0 16px;
+}

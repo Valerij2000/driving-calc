@@ -1,0 +1,20 @@
+.header {
+    height: 56px;
+    position: sticky;
+    top: 0;
+    background: $color-bg-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    z-index: 999;
+}
+.btn-close {
+    background: transparent;
+    padding: 0;
+    border: none;
+    svg {
+        width: 56px;
+        height: 56px;
+    }
+}

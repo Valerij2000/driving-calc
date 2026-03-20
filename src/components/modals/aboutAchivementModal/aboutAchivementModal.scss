@@ -1,0 +1,115 @@
+// .modal-about-achivement {
+//   &.modal-about-achivement-locked {
+//     .achiv-image {
+//       filter: grayscale(1);
+//       opacity: 0.5;
+//     }
+//   }
+// }
+.achiv-block-content {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+.modal-inside-content {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .achiv-image {
+    width: 178px;
+    display: block;
+    margin: 0 0 22px;
+  }
+  .title {
+    color: #000;
+    text-align: center;
+    margin: 0 0 6px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .subtitle {
+      font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    margin: 0 0 24px;
+  }
+  .btn-go {
+    margin: 22px 0 0;
+    display: block;
+    text-decoration: none;
+  }
+}
+.subtitle-finish{
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #7B7B7B;
+  width: 148px;
+  padding: 8px 15px;
+  background-color: #F1F3F1;
+  margin: 0 auto 6px;
+  border-radius: 6px;
+}
+.achiv-progress {
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #f1f3f1;
+  margin-bottom: 22px;
+  p {
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #7b7b7b;
+    margin: 0 0 8px;
+  }
+}
+.achiv-unlocked-text {
+  margin: 16px auto 22px;
+  text-align: center;
+  font-size: 14px;
+  width: 90%;
+}
+.bar {
+  height: 9px;
+  width: 100%;
+  background: #cecece;
+  border-radius: 12px;
+  // overflow-x: hidden;
+  position: relative;
+  span {
+    display: block;
+    height: 100%;
+    max-width: 96%;
+    // background: $color-green;
+    border-radius: 12px;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      max-width: 96%;
+      width: var(--progress);
+      background-color: $color-green; // например, зелёный
+      border-radius: 12px;
+      transition: width 0.3s ease;
+      z-index: 0;
+    }
+    
+  }
+  img {
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      width: 42px;
+      margin: 0;
+      
+      transform: translateY(-50%);
+    }
+}

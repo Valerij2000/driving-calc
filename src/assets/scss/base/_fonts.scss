@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'PPAgrandir-Bold';
+  src: url('/PPAgrandir-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  src: url('/NotoSans-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  src: url('/NotoSans-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-weight: 600;
+  src: url('/NotoSans-SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-weight: 700;
+  src: url('/NotoSans-Bold.woff2') format('woff2');
+}

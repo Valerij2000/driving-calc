@@ -1,0 +1,48 @@
+.invite-item {
+  border-radius: 12px;
+  background: #fff;
+  padding: 12px 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.invite-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.invite-item-name {
+  font-family: $font_heading;
+  margin: 0;
+  font-size: 16px;
+  line-height: normal;
+  color: #141414;
+  font-weight: 700;
+  width: 50%;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+.invite-item-status {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ gap: 2px;
+
+ &.done {
+  p {
+    color: #02952B;
+  }
+ }
+
+ :deep(svg) {
+    width: 16px;
+    height: 16px;
+ }
+ p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7B7B7B;
+ }
+}

@@ -1,0 +1,232 @@
+//@import "fonts";
+html {
+  input[type='button'],
+  button {
+    cursor: pointer;
+  }
+  input[disabled] {
+    cursor: default;
+  }
+}
+body {
+  overflow-x: hidden;
+  font-family: $font_regular;
+  margin: 0;
+  color: $color-text;
+  min-width: 320px;
+  background: $color-bg-content;
+  position: relative !important;
+  font-size: 16px;
+  line-height: 1.38;
+  font-weight: 500;
+
+  &.no-scroll {
+    overflow: hidden;
+    .app-wrapper {
+      overflow: hidden;
+    }
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.nowrap {
+  white-space: nowrap;
+}
+#app {
+  // background: rgba(0,0,0, 0.41);
+  // height: 100vh;
+  // height: 100dvh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+main {
+  // padding: 0 16px 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s;
+
+  &:active {
+    outline: 0;
+  }
+  &:hover {
+    outline: 0;
+    text-decoration: underline;
+  }
+}
+button {
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0;
+  color: $color-text;
+  font-family: $font_regular;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: $color-text;
+}
+h1 {
+  font-size: 24px;
+  line-height: 1.33;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0 0 16px;
+  font-family: $font_heading;
+}
+
+p {
+  margin: 0 0 8px;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+.ico-svg {
+  fill: currentColor;
+}
+
+.overflow {
+  overflow: hidden;
+}
+.btn-reset {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-weight: 700;
+}
+
+/* Стили для UI поверх игры */
+.ui-top-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: calc((100vh * 402) / 826);
+  max-width: calc((100dvh * 402) / 826);
+  width: 100%;
+  padding: 0 20px;
+  top: 28px;
+  margin: 0 auto;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none; // Позволяет кликам "проходить" сквозь контейнер
+}
+
+.ui-loader-text {
+  font-family: $font_heading;
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: calc((100vh * 402) / 826);
+  max-width: calc((100dvh * 402) / 826);
+  width: 100%;
+  padding: 0 20px;
+  top: 43%;
+  margin: 0 auto;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none; // Позволяет кликам "проходить" сквозь контейнер
+  font-size: 26px;
+  color: #fff;
+}
+
+.ui-left-side,
+.ui-right-side {
+  display: flex;
+  gap: 10px;
+}
+
+.ui-item {
+  font-family: $font_heading;
+  background-color: #fff;
+  border-radius: 48px;
+  height: 38px;
+  line-height: 100%;
+  padding: 4px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  pointer-events: auto; // Восстанавливает кликабельность для самих элементов
+
+  span {
+    display: inline-block;
+  }
+}
+
+.ui-score {
+  position: relative;
+  min-width: 68px;
+  justify-content: flex-end;
+
+  span {
+    display: inline-block;
+    text-align: center;
+    width: 18px;
+  }
+
+  img {
+    margin-left: 5px;
+  }
+}
+.ui-sound,
+.ui-close-btn {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+
+.ui-sound {
+  img {
+    max-width: none;
+  }
+
+  span {
+    display: inline-block;
+    width: 26px;
+  }
+}
+
+.ui-timer {
+  width: 98px;
+
+  span {
+    display: inline-block;
+    width: 55px;
+    text-align: center;
+  }
+}

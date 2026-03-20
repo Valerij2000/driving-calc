@@ -1,0 +1,26 @@
+.main-onboarding {
+  padding: 0 16px;
+  margin: 0 0 24px;
+}
+.main-onboarding-holder {
+  padding: 16px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  p {
+    font-size: 16px;
+    font-family: $font_heading;
+    font-weight: 700;
+    line-height: 27px;
+    width: 40%;
+    flex-grow: 1;
+    margin: 0;
+  }
+}

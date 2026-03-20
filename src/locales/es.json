@@ -1,0 +1,283 @@
+{
+  "mainData": {
+    "ridesInfo": "Viajes totales"
+  }, 
+  "referal":{
+    "title": "Programa de referidos",
+    "invites": "Invitaciones pendientes",
+    "compleated": "Amigos que completaron un viaje",
+    "shareTitle": "Comparte tu enlace de referido",
+    "shareText": "Únete a inDrive y viaja a tu manera. Descárgalo ahora:"
+  },
+  "invitations": {
+      "title": "Invita a tus amigos ahora",
+      "invitesCountTitle": "Invitaciones pendientes",
+      "friendsCountTitle": "Amigos que completaron un viaje",
+      "linkTitle": "Comparte tu enlace de referido",
+      "completedText": "Terminado",
+      "pendingText": "Pendiente"
+    },
+  "onboardingPopup": {
+    "onboardingPopupTitle": "Elige tu estilo de viaje",
+    "onboardingPopupBtn": "Vamos"
+  },
+  "discountPopup": {
+    "discountPopupTitle": "Tu descuento del 10% es válido por 3 días",
+    "discountPopupBtn": "Obtener mi descuento"
+  },
+  "onboarding":{
+    "onboardingTitle1": "Configura tus preferencias de viaje",
+    "onboardingTitle2": "Elige tu tipo de pasajero",
+    "onboardingTitle3": "Completa desafíos y gana logros",
+    "onboardingTitle4": "Invite friends and track their status here",
+    "onboardingTitle5": "Save your favorite addresses",
+    "btnNext": "Siguiente",
+    "btnPrev": "Volver",
+    "btnFinish": "Finalizar",
+    "finalModalTitle": "¡Onboarding completado!",
+    "finalModalText": "¿Quieres volver a verlo? Solo haz clic en el botón \"Repetir onboarding\" en tu perfil.",
+    "finalModalBtn": "Ir a mi perfil",
+    "buttonToFinish": "Onboarding"
+  },
+   "preferences": {
+    "discountTextStart": "Obtén X% de descuento en tu próximo viaje completando todas tus preferencias — tu descuento es válido por 3 días",
+    "discountTextRecieved": "Genial, has especificado tus preferencias. Obtén tu descuento del X%.",
+    "title": "Mis preferencias",
+    "tooltip": "Tu conductor verá tus preferencias",
+    "presetsTitle" : "Selecciona todas las preferencias en 1 paso Finalizar",
+    "presetsIntrovert" : "Entendido",
+    "presetsExtrovert" : "Extrovertido",
+    "presetsMusicLover" : "Amante de la música",
+    "musicTitle": "Música",
+     "musicList": {
+      "1": "Sin preferencia",
+      "2": "Está bien con tu música",
+      "3": "Sin música, por favor"
+    },
+    "communicationTitle": "Comunicación",
+    "communicationList": {
+      "1": "Sin preferencia",
+      "2": "Encantado de conversar",
+      "3": "Prefiero un viaje tranquilo"
+    },
+    "contactTitle": "Método de contacto preferido",
+    "contactList": {
+      "1": "No seleccionado",
+      "2": "Llámame cuando llegues",
+      "3": "Por favor, no me llames",
+      "4": "Envíame un mensaje en la app"
+    },
+    "drivingTitle": "Estilo de conducción",
+    "drivingList": {
+      "1": "Sin preferencia",
+      "2": "Viaje suave, por favor (me mareo en el coche)",
+      "3": "Prefiero una llegada rápida"
+    },
+     "disclamer": "Intentaremos respetar tus preferencias, aunque algunas podrían no ser siempre posibles."
+  },
+  "places":{
+    "placesTitle": "Mis lugares",
+    "homeTitle": "Casa",
+    "workTitle": "Trabajo",
+    "additionalTitle": "Nueva dirección",
+    "addHomePlace": "Agregar dirección de casa",
+    "addWorkPlace": "Agregar dirección de trabajo",
+    "addNewPlace": "Agregar nueva dirección",
+    "btnSave": "Guardar",
+    "btnDelete": "Eliminar",
+    "btnBack": "Volver",
+    "btnClose": "Cerrar",
+    "terms": "Términos y condiciones",
+    "sureDelete": "¿Estás seguro de que deseas eliminar esta dirección?",
+    "actionUndone": "Esta acción no se puede deshacer.",
+    "adressRemoved": "La dirección ha sido eliminada de Mis lugares.",
+    "adressSaved": "La dirección ha sido guardada en Mis lugares.",
+    "placeholderCity": "Ciudad",
+    "placeholderStreet": "Calle",
+    "placeholderHouse": "Número de casa"
+  },
+   "mainStats": {
+      "title": "Mis estadísticas de este mes",
+      "totalRides": "Viajes totales este mes",
+      "ridesPrise": "Viajes con tu precio",
+      "preferedTime": "Horario preferido para viajar",
+      "viewTrips": "Ver viajes",
+      "trackerTime": "Seguimiento de viaje",
+      "addTrip": "Agregar viaje",
+      "tripDistance": "Distancia del viaje",
+      "totalTrip": "Viaje total",
+      "totalDistance": "Distancia total",
+      "tripHistory": "Historial de viaje",
+      "recordedTrips": "Aún no se han registrado viajes. ¡Agrega tu primer viaje arriba!",
+      "rides": "viaje | viajes",
+      "ridesRanges": {
+        "range0": "¿Tranquilo? Sin prisa — las calles estarán aquí cuando estés listo.",
+        "range1": "Ya estás entrando en ritmo — ¡cada viaje cuenta!",
+        "range2": "¡Ya agarraste vuelo — sigamos rodando!",
+        "range3": "Ruedas girando y buena vibra — ¡la calle es tuya!",
+        "range4": "¿Tú y la ciudad? Ahora sí que son una dupla real.",
+        "range5": "Realeza sobre ruedas — nadie lo hace como tú."
+      },
+      "ridesRangesPrice": {
+        "range0": "Tu viaje, tus reglas — cuando quieras, arrancamos.",
+        "range1": "Probando el terreno — buena jugada.",
+        "range2": "Estás dominando el sistema — solo viajes inteligentes.",
+        "range3": "Nivel pro — ya tienes esto bajo control.",
+        "range4": "Viajas a tu manera — siempre. Respeto total."
+      },
+      "ridesPrefTime": {
+        "empty": "Sigue rodando — pronto encontraremos tu ritmo perfecto.",
+        "morning": "Mañana",
+        "afternoon": "Tarde",
+        "evening": "Atardecer",
+        "night": "Noche",
+        "morningText": "Viajes tempraneros, buenas vibras — ¡vámonos!",
+        "afternoonText": "Paseo al mediodía — tranquilo y sin prisa.",
+        "eveningText": "Viajar al atardecer se siente distinto — pura calma.",
+        "nightText": "Viajes nocturnos, luces de ciudad — la noche es toda tuya."
+      }
+    },
+    "trips": {
+      "title": "Seguimiento de viajes",
+      "activity": "Actividad (últimos 7 días)",
+      "addNew": "Añadir nuevo viaje",
+      "distance": "Distancia",
+      "cost": "Costo",
+      "category": "Categoría",
+      "destination": "Destino",
+      "destPlaceholder": "¿A dónde fuiste?",
+      "add": "Añadir viaje",
+      "totalDistance": "Distancia total",
+      "totalCost": "Costo total",
+      "avgCost": "Costo medio",
+      "count": "Viajes",
+      "exportCSV": "Exportar a CSV",
+      "recentHistory": "Historial reciente",
+      "cat": {
+        "personal": "Personal",
+        "work": "Trabajo",
+        "other": "Otros"
+      },
+      "ridesRangesPrice": {
+        "range0": "Sin viajes económicos",
+        "range1": "Cazador de ofertas",
+        "range2": "Ahorrador inteligente",
+        "range3": "Maestro de la negociación",
+        "range4": "Leyenda del precio"
+      },
+      "ridesPrefTime": {
+        "empty": "No hay suficientes datos",
+        "morning": "Mañana",
+        "morningText": "Madrugador",
+        "afternoon": "Tarde",
+        "afternoonText": "Viajero diurno",
+        "evening": "Noche",
+        "eveningText": "Noctámbulo",
+        "night": "Madrugada",
+        "nightText": "Viajero nocturno"
+      },
+      "errors": "El importe debe ser mayor que cero." 
+    },
+    "mainAchivs": {
+      "title": "Mis logros",
+      "compleatedModalText": {
+        "0": "¡Esta insignia es tuya! Sigue así.",
+        "1": "Otro logro en tu colección.",
+        "2": "Otro paso adelante — sigue coleccionando logros.",
+        "3": "Hora de celebrar — ¡te lo mereces!",
+        "4": "Esta insignia ya forma parte de tu camino.",
+        "5": "Estás un paso más cerca de completarlos todos."
+      },
+      "compleatedProgress": "Completado:",
+      "compleatedOutOfProgress": "de",
+      "compleateStatusFinish": "Completado",
+      "compleateStatusNotFinish": "Aún no completado",
+      "go_getter": {
+        "title": "En racha",
+        "text": "Un mes, 5 viajes. ¡Qué gusto verte!"
+      },
+      "marathoner": {
+        "title": "Crack",
+        "text": "Un mes, 10 viajes. ¡Vas con todo!"
+      },
+      "machine": {
+        "title": "Legendario",
+        "text": "Un mes, 50 viajes. ¿Te encanta inDrive?"
+      },
+      "early_bird": {
+        "title": "Madrugador",
+        "text": "¿Madrugaste? Viaja de 5:00 a 7:00 a.m."
+      },
+      "rush_hour_hero": {
+        "title": "Súper pro",
+        "text": "Aviéntate la hora pico (18:00–20:00)"
+      },
+      "night_owl": {
+        "title": "Noctámbulo",
+        "text": "Échate un viaje después de las 11:00 p.m"
+      },
+      "cashless_pro": {
+        "title": "Sin cash",
+        "text": "Paga 5 viajes sin usar efectivo"
+      },
+      "plot_twist": {
+        "title": "Giro inesperado",
+        "text": "Un conductor viajó como pasajero"
+      },
+      "grandmaster": {
+        "title": "Nivel dios",
+        "text": "¿1000 viajes? Sí que estás en otro nivel"
+      },
+      "busy_bee": {
+        "title": "Ocupado",
+        "text": "¿Tienes un paquete? Lo llevamos por ti"
+      },
+      "home_sweet_home": {
+        "title": "El cantón",
+        "text": "Agrega la dirección de tu casa"
+      },
+      "work_work_work": {
+        "title": "La chamba",
+        "text": "Agrega la dirección de tu trabajo"
+      },
+      "explorer": {
+        "title": "Viajero",
+        "text": "Haz viajes en 3 diferentes ciudades"
+      },
+      "strong_one": {
+        "title": "Musculoso",
+        "text": "Aviéntate un flete para variar"
+      },
+      "now_i_drive": {
+        "title": "Renacido",
+        "text": "De pasajero a conductor, ¡conviértete!"
+      },
+      "life_of_the_party": {
+        "title": "Celebridad",
+        "text": "¿Tienes 5 amigos? Invítalos a unirse"
+      },
+      "courier_hustler": {
+        "title": "Mensajero",
+        "text": "Aprovecha tu app: envía 3 paquetes"
+      },
+      "first_ride": {
+        "title": "Novato",
+        "text": "Tu primer viaje espera, ¡hazlo ya!"
+      },
+      "new_horizons": {
+        "title": "Nuevos horizontes",
+        "text": "Atrévete a hacer un viaje a otra ciudad"
+      },
+      "stylish": {
+        "title": "Con estilo",
+        "text": "Haz 5 viajes en clase Confort"
+      }
+    },
+    "btns": {
+      "takeRide": "Haz un viaje",
+       "awesome": "¡Genial!",
+       "addAddress": "Agrega una dirección",
+      "inviteFriends": "Invita a tus amigos"
+    }
+  }
+  

@@ -1,0 +1,73 @@
+.app-button {
+  background: $color-green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-family: $font_regular;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 8px;
+  gap: 12px;
+  position: relative;
+  color: $color-text;
+  @include text14Medium();
+  &.app-button-loading {
+    pointer-events: none;
+    .text-inside {
+      opacity: 0;
+    }
+    .append-icon {
+      opacity: 0;
+    }
+    .app-button-loader {
+      display: block;
+    }
+  }
+  &.app-button-big {
+    height: 50px;
+    padding: 0 24px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &.app-button-fullwidth {
+    width: 100%;
+    max-width: 100%;
+  }
+  &.app-button-grey {
+    background: $color-bg-secondary;
+  }
+  &.app-button-black {
+    background: $color-text;
+    color: #fff;
+  }
+  &.app-button-disabled {
+    pointer-events: none;
+    background: #F5F5F6;
+    color: #7B7B7B;
+  }
+}
+.app-button-loader {
+  display: none;
+ 
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  img {
+    animation: circle 2s linear infinite;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "mainData": {
+    "ridesInfo": "Total rides"
+  },
+  "referal":{
+    "title": "Referal Programm",
+    "invites": "Invites pending",
+    "compleated": "Friends who completed a ride",
+    "shareTitle": "Share your referral link",
+    "shareText": "Join inDrive and ride on your terms. Download now:"
+  },
+   "invitations": {
+    "title": "Get your frends now",
+    "invitesCountTitle": "Invites pending",
+    "friendsCountTitle": "Friends who completed a ride",
+    "linkTitle": "Your referral link",
+    "completedText": "Completed",
+    "pendingText": "Pending"
+  },
+  "onboardingPopup": {
+    "onboardingPopupTitle": "Choose your ride style",
+    "onboardingPopupBtn": "Let's go"
+  },
+  "discountPopup": {
+    "discountPopupTitle": "Your 10% discount is valid for 3 days",
+    "discountPopupBtn": "Get my discount"
+  },
+  "onboarding":{
+    "onboardingTitle1": "Set your ride preferences",
+    "onboardingTitle2": "Pick your passenger type",
+    "onboardingTitle3": "Complete challenges and earn achievements",
+    "onboardingTitle4": "Invite friends and track their status here",
+    "onboardingTitle5": "Save your favorite addresses",
+    "btnNext": "Next",
+    "btnPrev": "Back",
+    "btnFinish": "Finish",
+    "finalModalTitle": "Onboarding Complete",
+    "finalModalText": "Want to go through it again? Just click the \"Replay Onboarding\" button in your profile.",
+    "finalModalBtn": "Go to My Profile",
+    "buttonToFinish": "Onboarding"
+  },
+  "preferences": {
+    "discountTextStart": "Get X% off your next ride by filling in your preferences — your discount is valid for 3 days",
+    "discountTextRecieved": "Great, you've specified your preferences. Get your X% discount.",
+    "title": "My Preferences",
+    "tooltip": "Your driver will see your preferences",
+    "presetsTitle" : "Select all preferences in 1 step:",
+    "presetsIntrovert" : "Introvert",
+    "presetsExtrovert" : "Extrovert",
+    "presetsMusicLover" : "Music lover",
+    "musicTitle": "Music",
+    "musicList": {
+      "1": "No preference",
+      "2": "I’m fine with your music",
+      "3": "No music, please"
+    },
+    "communicationTitle": "Communication",
+    "communicationList": {
+      "1": "No preference",
+      "2": "Happy to chat",
+      "3": "Prefer a quiet ride"
+    },
+    "contactTitle": "Preferred contact method",
+    "contactList": {
+      "1": "Not Selected",
+      "2": "Call me when you arrive",
+      "3": "Please don’t call me",
+      "4": "Message me in the app"
+    },
+    "drivingTitle": "Driving style",
+    "drivingList": {
+      "1": "No preference",
+      "2": "Smooth ride, please (I get carsick)",
+      "3": "Quick arrival preferred"
+    },
+    "disclamer": "We'll try to honor your preferences, though some may not always be possible."
+  },
+  "places":{
+    "placesTitle": "My Places",
+    "homeTitle": "Home",
+    "workTitle": "Work",
+    "additionalTitle": "New address",
+    "addHomePlace": "Add home address",
+    "addWorkPlace": "Add work address",
+    "addNewPlace": "Add new address",
+    "btnSave": "Save",
+    "btnDelete": "Delete",
+    "btnBack": "Back",
+    "btnClose": "Close",
+    "terms": "Terms and conditions",
+    "sureDelete": "Are you sure you want to delete this address?",
+    "actionUndone": "This action cannot be undone.",
+    "adressRemoved": "The address has been removed from My Places.",
+    "adressSaved": "The address has been saved in My Places.",
+    "placeholderCity": "City",
+    "placeholderStreet": "Street",
+    "placeholderHouse": "House"
+  },
+  "mainStats": {
+    "title": "My Statistics this month",
+    "totalRides": "Total ride distance",
+    "ridesPrise": "Rides with your price",
+    "preferedTime": "Preferred ride time",
+    "trackerTime": "Trip Tracker",
+    "addTrip": "Add Trip",
+    "tripDistance": "Trip distance",
+    "totalTrip": "Total Trip",
+    "totalDistance": "Total Distance",
+    "tripHistory": "Trip History",
+    "viewTrips": "View Trips",
+    "recordedTrips": "No trips recorded yet. Add your first trip above!",
+    "rides": "ride | rides",
+    "ridesRanges": {
+      "range0": "Just chillin’? No rush — the streets will be here when you’re ready.",
+      "range1": "Getting in the groove — every ride adds up!",
+      "range2": "You’re on a roll now — let’s keep it movin’.",
+      "range3": "Wheels spinning and vibes high — you’re owning the road.",
+      "range4": "You and the city? That’s a real thing now.",
+      "range5": "Straight-up ride royalty — no one’s doing it like you."
+    },
+    "ridesRangesPrice": {
+      "range0": "Your ride, your rules — whenever you’re ready to roll.",
+       "range1": "Testing the setup — smooth move.",
+      "range2": "You’re working the system — smart rides only.",
+      "range3": "Pro moves — you’ve got this game down.",
+      "range4": "You ride how you want — every time. Respect."
+    },
+    "ridesPrefTime": {
+      "empty": "Keep cruisin’ — we’ll catch your ride rhythm soon.",
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "night": "Night",
+      "morningText": "Early rides, fresh vibes — let’s go!",
+      "afternoonText": "Midday cruise — smooth and easy.",
+      "eveningText": "Sunset trips hit different — real chill.",
+      "nightText": "Late rides, city lights — you got the night on lock."
+    }
+  },
+  "trips": {
+    "title": "Trip Tracker",
+    "activity": "Activity (Last 7 Days)",
+    "addNew": "Add New Trip",
+    "distance": "Distance",
+    "cost": "Cost",
+    "category": "Category",
+    "destination": "Destination",
+    "destPlaceholder": "Where did you go?",
+    "add": "Add Trip",
+    "totalDistance": "Total Distance",
+    "totalCost": "Total Cost",
+    "avgCost": "Avg. Cost",
+    "count": "Trips",
+    "exportCSV": "Export to CSV",
+    "recentHistory": "Recent History",
+    "cat": {
+      "personal": "Personal",
+      "work": "Work",
+      "other": "Other"
+    },
+    "ridesRangesPrice": {
+      "range0": "No bargain rides",
+      "range1": "Bargain hunter",
+      "range2": "Smart saver",
+      "range3": "Master negotiator",
+      "range4": "Price legend"
+    },      
+    "ridesPrefTime": {
+      "empty": "Not enough data",
+      "morning": "Morning",
+      "morningText": "Early bird",
+      "afternoon": "Afternoon",
+      "afternoonText": "Day traveler",
+      "evening": "Evening",
+      "eveningText": "Night owl",
+      "night": "Night",
+      "nightText": "Midnight rider"
+    },
+    "errors": "Amount must be greater than zero" 
+  },
+  "mainAchivs": {
+    "title": "My Achievements",
+    "compleatedModalText": {
+      "0": "This badge is now yours. Keep going!",
+      "1": "Another achievement in your collection.",
+      "2": "Another step forward — keep collecting achievements!",
+      "3": "Time to celebrate — you’ve earned it!",
+      "4": "This badge is now part of your journey.",
+      "5": "You’re one step closer to completing them all."
+    },
+    "compleatedProgress": "Сompleted:",
+    "compleatedOutOfProgress": "out of",
+    "compleateStatusFinish": "Completed",
+    "compleateStatusNotFinish": "Not completed yet",
+    "go_getter": {
+      "title": "On a roll",
+      "text": "One month, 5 trips. Great to see you!"
+    },
+    "marathoner": {
+      "title": "Ace",
+      "text": "One month, 10 trips. You’re on fire!"
+    },
+    "machine": {
+      "title": "Legendary",
+      "text": "One month, 50 trips. You love inDrive?"
+    },
+    "early_bird": {
+      "title": "Early Bird",
+      "text": "Up early? Ride between 5:00 and 7:00 a.m."
+    },
+    "rush_hour_hero": {
+      "title": "Super pro",
+      "text": "Brave the rush hour (6:00–8:00 p.m.)"
+    },
+    "night_owl": {
+      "title": "Night Owl",
+      "text": "Take a trip after 11:00 p.m."
+    },
+    "cashless_pro": {
+      "title": "No cash",
+      "text": "Pay for 5 trips without using cash"
+    },
+    "plot_twist": {
+      "title": "Plot Twist",
+      "text": "Driver took a ride as a passenger"
+    },
+    "grandmaster": {
+      "title": "God level",
+      "text": "1000 trips? You’re on another level"
+    },
+    "busy_bee": {
+      "title": "Busy Bee",
+      "text": "Got a package? We’ll deliver it for you"
+    },
+    "home_sweet_home": {
+      "title": "The crib",
+      "text": "Add your home address"
+    },
+    "work_work_work": {
+      "title": "The job",
+      "text": "Add your work address"
+    },
+    "explorer": {
+      "title": "Explorer",
+      "text": "Take trips in 3 different cities"
+    },
+    "strong_one": {
+      "title": "Mr. Muscles",
+      "text": "Try a cargo trip for a change"
+    },
+    "now_i_drive": {
+      "title": "Reborn",
+      "text": "From rider to driver, make the switch!"
+    },
+    "life_of_the_party": {
+      "title": "Celebrity",
+      "text": "Got 5 friends? Invite them to join"
+    },
+    "courier_hustler": {
+      "title": "Courier Hustler",
+      "text": "Use your app: send 3 packages"
+    },
+    "first_ride": {
+      "title": "Rookie",
+      "text": "Your first trip is waiting—go for it!"
+    },
+    "new_horizons": {
+      "title": "New Horizons",
+      "text": "Take the leap—go to another city"
+    },
+    "stylish": {
+      "title": "Stylish",
+      "text": "Go big: 5 rides in Comfort Class"
+    }
+  },
+  "btns": {
+    "takeRide": "Take a Ride",
+    "awesome": "Awesome",
+    "addAddress": "Add address",
+    "inviteFriends": "Invite friends"
+  }
+}

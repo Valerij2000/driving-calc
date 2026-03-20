@@ -1,0 +1,30 @@
+.main-user-data {
+    padding: 0 16px;
+}
+.main-user-data-holder {
+    padding: 16px;
+    background: #fff;
+    border-radius: 20px;
+}
+.main-user-data-name {
+    display: block;
+    max-width: 200px;
+    font-size: 20px;
+    font-family: $font_heading;
+    line-height: 1.1;
+    margin: 0 0 12px;
+}
+.main-user-data-rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 6px;
+    font-size: 14px;
+    color: #7B7B7B;
+}
+.main-user-data-rides {
+    font-size: 14px;
+    color: #7B7B7B;
+    margin: 0;
+}
